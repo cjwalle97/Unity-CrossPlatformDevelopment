@@ -569,7 +569,7 @@ GameObject:
   - component: {fileID: 486149626}
   - component: {fileID: 486149625}
   m_Layer: 5
-  m_Name: Scary Story
+  m_Name: Stressfull Task
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -987,7 +987,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Scary Story
+  m_Text: Stressfull Task
 --- !u!222 &673548872
 CanvasRenderer:
   m_ObjectHideFlags: 0

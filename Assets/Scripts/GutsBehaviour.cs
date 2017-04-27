@@ -17,7 +17,7 @@ public class GutsBehaviour: MonoBehaviour
 
     void Update()
     {
-        string text = "GutsLevel: " + guts;
+        string text = "Guts Level: " + guts;
         level.text = text + Environment.NewLine;
     }
 }
