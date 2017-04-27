@@ -3,13 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Health
-  - Knowledge
-  - Guts
-  - Proficiency
-  - Charm
-  - Kindness
+  tags: []
   layers:
   - Default
   - TransparentFX
