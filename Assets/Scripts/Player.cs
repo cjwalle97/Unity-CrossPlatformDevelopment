@@ -7,15 +7,15 @@ using RPGStats;
 
 public class Player : MonoBehaviour {
 
-    public class player
-    {
-        Stat playerHealth = new Stat("Health", 100);
-        Stat playerKnowledge = new Stat("Knowledge", 1);
-        Stat playerGuts = new Stat("Guts", 1);
-        Stat playerProficiency = new Stat("Proficiency", 1);
-        Stat playerCharm = new Stat("Charm", 1);
-        Stat playerKindness = new Stat("Kindness", 1);
+    public Stat playerHealth = new Stat("Health", 100);
+    public Stat playerKnowledge = new Stat("Knowledge", 1);
+    public Stat playerGuts = new Stat("Guts", 1);
+    public Stat playerProficiency = new Stat("Proficiency", 1);
+    public Stat playerCharm = new Stat("Charm", 1);
+    public Stat playerKindness = new Stat("Kindness", 1);
+    
+    /*playerStats = new Stats(playerKnowledge, playerGuts, playerProficiency,
+        playerCharm, playerKindness);*/
 
-        Stats playerStats = new Stats();
-    }
+
 }
