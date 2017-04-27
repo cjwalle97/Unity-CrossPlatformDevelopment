@@ -11,7 +11,6 @@ public class PlayerStatsBehaviour : MonoBehaviour {
     public int charm;
     public int kindness;
 
-	// Use this for initialization
 	void Start () {
         knowledge = 1;
         guts = 1;
@@ -20,7 +19,6 @@ public class PlayerStatsBehaviour : MonoBehaviour {
         kindness = 1;
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		
 	}
