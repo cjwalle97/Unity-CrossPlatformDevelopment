@@ -1,20 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class KindnessBehaviour : MonoBehaviour {
 
     public int kindness;
-    public string text;
+    public Text level;
 
-	// Use this for initialization
 	void Start () {
         kindness = 1;
 	}
 	
-	// Update is called once per frame
 	void Update () {
-        text = "Kindness Level: " + kindness;
-	}
+        string text = "Kindness Level: " + kindness;
+        level.text = text + Environment.NewLine;
+    }
 }

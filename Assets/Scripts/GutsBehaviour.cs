@@ -1,16 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class GutsBehaviour : MonoBehaviour {
+public class GutsBehaviour: MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public int guts;
+    public Text level;
+
+    void Start()
+    {
+        guts = 1;
+    }
+
+    void Update()
+    {
+        string text = "GutsLevel: " + guts;
+        level.text = text + Environment.NewLine;
+    }
 }
