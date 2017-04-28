@@ -13,9 +13,18 @@ public class Player : MonoBehaviour {
     public Stat playerProficiency = new Stat("Proficiency", 1);
     public Stat playerCharm = new Stat("Charm", 1);
     public Stat playerKindness = new Stat("Kindness", 1);
-    
-    /*playerStats = new Stats(playerKnowledge, playerGuts, playerProficiency,
-        playerCharm, playerKindness);*/
+
+    private Stats playerStats(Stat Health, Stat Knowledge, Stat Guts, Stat Proficiency,
+    Stat Charm, Stat Kindness)
+    {
+        Health = playerHealth;
+        Knowledge = playerKnowledge;
+        Guts = playerGuts;
+        Proficiency = playerProficiency;
+        Charm = playerCharm;
+        Kindness = playerKindness;
+        return null;
+    }
 
 
 }
