@@ -1505,6 +1505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8802c17658e0b924ab9d8ce942ff61b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gridblocks: {fileID: 0}
 --- !u!4 &888069522
 Transform:
   m_ObjectHideFlags: 0
