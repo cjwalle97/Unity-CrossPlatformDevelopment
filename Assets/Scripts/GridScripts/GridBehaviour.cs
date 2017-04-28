@@ -4,20 +4,38 @@ using UnityEngine;
 
 public class GridBehaviour : MonoBehaviour {
 
-    public GameObject gridblocks;
-
+    public GameObject GridBlock;
+    public List<GameObject> Blocks;
 
     public void MakeGrid() {
-        List<Vector3> Grid = new List<Vector3>();
+        
         int i = 0;
-        int j = 0;
         for (; i <= 3; i++)
         {
-            for(; j <= 3; j++)
+            for(int j = 0; j <= 3; j++)
             {
                 Vector3 Position = new Vector3(i, 0, j);
-                Grid.Add(Position);
+                var go = Instantiate<GameObject>(GridBlock, Position, transform.rotation);
+                Blocks.Add(go);
             }
-        }
+        }    
+    }
+
+    [ContextMenu ("Create")]
+    void Create()
+    {
+        MakeGrid();
+    }
+
+  
+
+    void Start()
+    {
+        MakeGrid();
+    }
+
+    void Update()
+    {
+
     }
 }
