@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Name: CombatKnife
   m_EditorClassIdentifier: 
   Name: CombatKnife
+  _sprite: {fileID: 21300000, guid: 80cb7146833713144b46c3283cc4ee56, type: 3}
+  type: 2
+  category: 1
   AttackBonus: 5
   DefenseBonus: 0

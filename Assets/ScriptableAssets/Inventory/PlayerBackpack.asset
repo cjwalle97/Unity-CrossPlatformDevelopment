@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Name: PlayerBackpack
   m_EditorClassIdentifier: 
   Name: Player's BackPack
-  Size: 16
   ItemSlots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 4978a45707d2e714a80d31e6510f1564, type: 2}
+  - {fileID: 11400000, guid: 5df0dd79e2cb1f746aea65cfce90c7cf, type: 2}
+  - {fileID: 11400000, guid: 2b0d4f0a2f7438449b4057fd55dac747, type: 2}
+  - {fileID: 11400000, guid: 97dd1b3914f81e6468672f4c4c83518f, type: 2}
+  - {fileID: 11400000, guid: d7b58901d7b48c8489aa60848f6f7fdc, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

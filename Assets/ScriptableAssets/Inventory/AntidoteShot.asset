@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Name: AntidoteShot
   m_EditorClassIdentifier: 
   Name: AntidoteShot
+  _sprite: {fileID: 0}
+  type: 1
+  category: 0

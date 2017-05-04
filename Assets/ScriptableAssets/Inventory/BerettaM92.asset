@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Name: BerettaM92
   m_EditorClassIdentifier: 
   Name: BerettaM92
+  _sprite: {fileID: 0}
+  type: 2
+  category: 2
   AttackBonus: 10
   ammo: {fileID: 0}

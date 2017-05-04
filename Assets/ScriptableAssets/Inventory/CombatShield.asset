@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Name: CombatShield
   m_EditorClassIdentifier: 
   Name: Combat Shield
+  _sprite: {fileID: 21300000, guid: 6a02faf19ccb5754a8d5be64868dab83, type: 3}
+  type: 2
+  category: 1
   AttackBonus: 0
   DefenseBonus: 5

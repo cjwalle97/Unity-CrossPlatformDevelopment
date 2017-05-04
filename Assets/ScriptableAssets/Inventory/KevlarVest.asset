@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Name: KevlarVest
   m_EditorClassIdentifier: 
   Name: Kevlar Vest
+  _sprite: {fileID: 0}
+  type: 2
+  category: 3
   DefenseBonus: 10
