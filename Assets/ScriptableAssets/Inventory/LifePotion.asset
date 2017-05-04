@@ -8,9 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb37bc488fcb58d4a8eb96876f4c2a1d, type: 3}
-  m_Name: Bill
+  m_Script: {fileID: 11500000, guid: a18ab6c731f58c04984877b4a06c7ac5, type: 3}
+  m_Name: LifePotion
   m_EditorClassIdentifier: 
-  _stats: {fileID: 0}
-  Name: Bill
-  UnitType: 3
+  Name: LifePotion
+  Recovery: 50
