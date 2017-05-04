@@ -19,6 +19,8 @@
 
         player,
 
-        slime
+        slime,
+
+        human
     }
 }
